@@ -1,0 +1,122 @@
+body{
+    background-image: url(bk.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    background-attachment:fixed;
+    margin:0px;   
+}
+
+
+.title{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-family:cursive;
+    color: rgb(185, 178, 181);
+}
+
+.container{
+
+    display: flex;
+    margin-left: 120px;
+    padding: 80px 10px 80px 60px;
+    width: 960px;
+    margin-right: 150px;
+    border: solid grey;
+}
+img{
+    width: 300px;
+    height: 400px;
+
+}
+
+img:hover{
+    transform:scale(1.2, 1.2);
+}
+
+.containertwo{
+    background-color: rgba(253, 250, 252, 0.212);
+    width: 100%;
+    height: 450px;
+    margin-bottom: 400px;
+    margin-top: 100px;
+}
+
+.formular{
+    position: absolute;
+    margin-top: 50px;
+    left: 300px;
+    width: 450px;
+    height: 320px;
+    padding-left: 230px;
+    padding-top: 25px;
+    border-style: solid;
+    border-color: grey;
+    border-radius: 20px;
+    
+}
+
+input{
+    background-color:rgb(146, 139, 139);
+    display: block;
+    border-radius: 10%;
+    margin: 3px;
+}
+
+input:focus{
+    background-color: transparent;
+    border-radius: 10%;
+    transform: scale(1.1, 1.1);
+
+}
+    
+
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    max-height: 100px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.192);
+    color: rgb(0, 0, 0);
+    padding-left: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.i{
+    color: black;
+    
+
+}
+
+
+@media only screen and (max-width:376px){
+    .container{
+        display: block;
+        width: 240px;
+        height: 900px;
+        margin-left: 30px;
+        margin-right: 10px;
+    }
+
+    img{
+        width: 180px;
+        height: 300px;
+    
+    }
+
+    .containertwo{
+        width: 100%;
+        height: 450px;
+    }
+
+    .formular{
+        padding: 20px 30px 20px 30px;
+        position: absolute;
+        width: 200px;
+        height: 300px;
+        left: 60px;
+    }}
